@@ -7,6 +7,8 @@ provider:
   # Default memory size for functions (default: 1024MB)
   memorySize: 1024
   timeout: 30
+  environment:
+    TABLE_NAME: SismoScrapingTable
   iam:
     role: arn:aws:iam::967418674262:role/LabRole
 
