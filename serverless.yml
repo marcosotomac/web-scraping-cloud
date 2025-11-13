@@ -28,7 +28,7 @@ resources:
     TablaWebScrapping:
       Type: AWS::DynamoDB::Table
       Properties:
-        TableName: TablaWebScrapping
+        TableName: SismoScrapingTable
         AttributeDefinitions:
           - AttributeName: id
             AttributeType: S
